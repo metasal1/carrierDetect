@@ -67,7 +67,7 @@ const CarrierDetect = () => {
           value={phoneNumber}
           onChange={handlePhoneNumberChange}
           onKeyPress={handleKeyPress}
-          placeholder="Enter phone number"
+          placeholder="Enter phone number e.g. 61412345678"
         />
         <button onClick={handleLookupClick}>Lookup</button>
         <button onClick={handleClearClick}>Clear</button>
